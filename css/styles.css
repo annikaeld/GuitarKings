@@ -1,19 +1,36 @@
-header, footer {
+header, 
+footer {
     background-color: #202020;
     color: #fff;
+   }
+
+footer{
+    text-align: center;
 }
 
-.sale {
-    background-color: green;
+header a {
+    color: white
+}
+
+.cta {
+    background-color: #b00;
     color: white;
+    border-radius: 15px;
+}
+
+.reviews {
+    background-color: #e8e8e8;
+}
+
+.featured--products {
+    background-color: #fbfbfb;
+}
+
+.cta-sale {
+    background-color: #127300;
+    color: white;
+    border-radius: 15px;
     
 }
 
-.view {
-    background-color: red;
-    color: white;
-}
 
-.review {
-    background-color: grey;
-}
