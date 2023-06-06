@@ -1,3 +1,8 @@
+@font-face {
+    font-family: BootsAndSpurs;
+    src: url(BootsAndSpurs.ttf) format("truetype");
+}
+
 header, 
 footer {
     background-color: #202020;
@@ -8,6 +13,20 @@ footer{
     text-align: center;
 }
 
+body{
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+.logo{
+    font-family: BootsAndSpurs, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-list h2{
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header a {
     color: white
 }
@@ -15,6 +34,7 @@ header a {
 .cta {
     background-color: #b00;
     color: white;
+    font-size: 1.5em;
     border-radius: 15px;
 }
 
