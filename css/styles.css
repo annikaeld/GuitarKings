@@ -1,6 +1,6 @@
 @font-face {
     font-family: BootsAndSpurs;
-    src: url(BootsAndSpurs.ttf) format("truetype");
+    src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
 }
 
 header, 
@@ -35,7 +35,7 @@ header a {
     background-color: #b00;
     color: white;
     font-size: 1.5em;
-    border-radius: 15px;
+    border-radius: 3px;
 }
 
 .reviews {
@@ -49,8 +49,34 @@ header a {
 .cta-sale {
     background-color: #127300;
     color: white;
-    border-radius: 15px;
+    border-radius: 3px;
     
 }
 
+/*home page*/
+.welcome {
+    background-image: url("../pictures/home-header.jpg");
+    background-size: cover;
+    background-position-x: right ;
+    background-position-y: bottom;
+    min-height: 70vh;
+}
 
+.selling-points-images {
+    border-radius: 100px;
+}
+
+.reviews-images{
+    border-radius: 50%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* contact page */
+  input, select, textarea{
+    border: 1px solid #c4c4c4
+    border-radius:10px;
+  }
