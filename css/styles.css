@@ -1,6 +1,6 @@
 @font-face {
     font-family: BootsAndSpurs;
-    src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+    src: url("../fonts/BootsAndSpurs\ \(3\).ttf") format("truetype");
 }
 
 header, 
@@ -8,6 +8,34 @@ footer {
     background-color: #202020;
     color: #fff;
    }
+
+   #navigation .highlight-nav{
+    text-decoration: underline;
+    padding-left: 0px;
+    color: #fff;
+}
+
+header a{
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Links */
+
+a{
+    text-decoration: none;
+}
+
 
 footer{
     text-align: center;
@@ -36,6 +64,7 @@ header a {
     color: white;
     font-size: 1.5em;
     border-radius: 3px;
+    text-decoration: none;
 }
 
 .reviews {
