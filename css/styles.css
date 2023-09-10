@@ -102,6 +102,7 @@ nav{
 .welcome {
     background-image: url("../pictures/home-header.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position-x: right ;
     background-position-y: bottom;
     min-height: 70vh;
@@ -117,23 +118,47 @@ nav{
 }
 
 .selling-points{
-    max-width: 1000px;
     margin: 50px auto;
+}
+
+.selling-points,
+.reviews-content{
+    max-width: 1000px;
     display: flex;
 }
 
-.selling-points > * {
+.selling-points > *, .reviews-content > *{
     flex: 1;
 }
 
 .selling-points-images {
     border-radius: 100px;
+    width: 100%;
+}
+
+.reviews{
+    text-align: center;
+    padding: 50px;
+}
+
+.reviews-content{
+    text-align: left;
+    margin: auto;
+}
+
+.reviews-content div{
+    margin: 50px;
 }
 
 .reviews-images{
+    width: 80px;
     border-radius: 50%;
+    float: right;
 }
 
+.reviews-names{
+    display: block;
+}
 input[type="text"] {
     padding: 10px;
     width: 100%;
