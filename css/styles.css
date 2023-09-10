@@ -25,8 +25,6 @@ nav li{
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
     padding: 0;
   }
 
@@ -34,6 +32,11 @@ nav ul {
 
 a{
     text-decoration: none;
+}
+
+header a {
+    color: white;
+    padding: 10px;
 }
 
 
@@ -55,23 +58,36 @@ h2,
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header a {
-    color: white
+header{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin-left: 25px;
 }
 
 .cta {
     background-color: #b00;
     color: white;
-    font-size: 1.5em;
-    border-radius: 3px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 80px;
     text-decoration: none;
 }
+
+.cta-small{
+    font-size: 0.8em;
+    padding: 8px 30px;
+}
+
 
 .reviews {
     background-color: #e8e8e8;
 }
 
-.featured--products {
+.featured_products {
     background-color: #fbfbfb;
 }
 
@@ -89,6 +105,25 @@ header a {
     background-position-x: right ;
     background-position-y: bottom;
     min-height: 70vh;
+    position: relative;
+}
+
+.welcome_content{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 100px;
+
+}
+
+.selling-points{
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.selling-points > * {
+    flex: 1;
 }
 
 .selling-points-images {
@@ -106,6 +141,6 @@ input[type="text"] {
 
   /* contact page */
   input, select, textarea{
-    border: 1px solid #c4c4c4
+    border: 1px solid #c4c4c4;
     border-radius:10px;
   }
