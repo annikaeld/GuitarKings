@@ -87,7 +87,7 @@ nav{
     background-color: #e8e8e8;
 }
 
-.featured_products {
+.products {
     background-color: #fbfbfb;
 }
 
@@ -159,6 +159,43 @@ nav{
 .reviews-names{
     display: block;
 }
+
+/*products*/
+
+.product-specific{
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.product-specific > *{
+    flex: 1;
+}
+
+.product-specific__details{
+    padding: 0px 30px;
+}
+
+.product-specific__details a{
+    display: block;
+    width: 95.767px;
+    margin:auto;
+}
+
+.product-specific__price{
+    font-size: 1.5em;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-image_thumbnails{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
 input[type="text"] {
     padding: 10px;
     width: 100%;
@@ -168,4 +205,28 @@ input[type="text"] {
   input, select, textarea{
     border: 1px solid #c4c4c4;
     border-radius:10px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+   
+  }
+
+  textarea{
+    height: 65%;
+  }
+
+  .contact{
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .form-wrapper{
+    display:flex;
+    text-align: left;
+  }
+
+  .form-wrapper > *{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
